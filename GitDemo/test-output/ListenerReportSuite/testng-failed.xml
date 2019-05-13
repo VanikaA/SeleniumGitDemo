@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ListenerReportSuite]">
+  <listeners>
+    <listener class-name="pom.listenerDemo2"/>
+  </listeners>
+  <test name="pomReports">
+    <classes>
+      <class name="pom.testLogin"/>
+    </classes>
+  </test> <!-- pomReports -->
+</suite> <!-- Failed suite [ListenerReportSuite] -->

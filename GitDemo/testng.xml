@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ListenerSuite" parallel="false">
+
+<listeners>
+<!-- <listener class-name="pom.listenerDemo" /> -->
+<listener class-name="pom.listenerDemo2" />
+</listeners>
+
+  <test name="ListenerDemo">
+    <classes>
+      <class name="pom.testListenerScript"/>
+    </classes>
+  </test> <!-- Test1 -->
+  
+   <test name="pomReports">
+    <classes>
+      <class name="pom.testLogin"/>
+    </classes>
+  </test> <!-- Test2 -->
+  
+  
+  
+</suite> <!-- Suite -->

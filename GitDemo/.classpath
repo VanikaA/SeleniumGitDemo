@@ -28,5 +28,12 @@
 	<classpathentry kind="lib" path="C:/Vanika/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Vanika/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Vanika/commons-io-2.6-bin/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Vanika/jar_files/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Vanika/jar_files/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Vanika/jar_files/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Vanika/jar_files/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Vanika/jar_files/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Vanika/jar_files/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Vanika/jar_files/sqlite-jdbc-3.8.11.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

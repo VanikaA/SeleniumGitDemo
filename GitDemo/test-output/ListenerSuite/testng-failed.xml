@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ListenerSuite]">
+  <listeners>
+    <listener class-name="pom.listenerDemo2"/>
+  </listeners>
+  <test name="ListenerDemo">
+    <classes>
+      <class name="pom.testListenerScript"/>
+    </classes>
+  </test> <!-- ListenerDemo -->
+  <test name="pomReports">
+    <classes>
+      <class name="pom.testLogin"/>
+    </classes>
+  </test> <!-- pomReports -->
+  <test name="ListenerDemo(failed)">
+    <classes>
+      <class name="pom.testListenerScript">
+        <methods>
+          <include name="failTest"/>
+          <include name="skipTest"/>
+        </methods>
+      </class> <!-- pom.testListenerScript -->
+      <class name="pom.testLogin">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- pom.testLogin -->
+    </classes>
+  </test> <!-- ListenerDemo(failed) -->
+</suite> <!-- Failed suite [ListenerSuite] -->
